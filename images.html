@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .bg-image{
+            background-image: url('images/image1.jpg');
+        }
+    </style>
+</head>
+<body>
+    <!-- インライン要素 -->
+
+    <!-- ブロック要素 -->
+    <div class="mb-12 h-24 w-40 bg-image"></div>
+    <div class="mb-12 h-40 w-40 bg-contain bg-center bg-no-repeat" style="background-image: url('images/image1.jpg');"></div>
+    幅と高さを指定
+    <img class="mb-16 w-96 h-24" src="images/image1.jpg">
+    object cover
+    <img class="mb-16 w-96 h-24 object-cover" src="images/image1.jpg">
+
+    <img src="images/image1.jpg">
+
+    SHADOW
+    <div class="mb-12 w-40 shadow">Shadow</div>
+    <div class="mb-12 w-40 border shadow-md">Shadow-md</div>
+    <div class="mb-12 w-40 border shadow-lg">Shadow-lg</div>
+
+
+
+</body>
+</html>
