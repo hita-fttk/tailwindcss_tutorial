@@ -542,6 +542,18 @@ video {
   height: auto;
 }
 
+h1{
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+}
+
 .container {
   width: 100%;
 }
