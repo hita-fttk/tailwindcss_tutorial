@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="md:flex justify-center mb-16">
+        <div class="text-center py-4 md:w-1/2">フォームに必要な情報を入力してください</div>
+        <div class="text-center py-4 md:w-1/2">
+            <div class="w-10/12 mx-auto md:max-w-md">
+                <form>
+                    <div class="mb-8">
+                        <label for="your_name" class="text-sm block">お名前</label>
+                        <input id="your_name" type="text" class="border-b w-full py-2 focus:outline-none focus:border-2 focus:border-blue-500" placeholder="山田太郎">
+                    </div>
+                    <div class="mb-8">
+                        <label for="email" class="test-sm block" >メールアドレス</label>
+                        <input type="email"id="email" class="border-b w-full py-2 focus:outline-none focus:border-2 focus:border-blue-500"placeholder="test@example.com">
+                    </div>
+                    <button class="focus:outline-none bg-blue-500 text-white font-semibold py-2 px-8 rounded-md">登録する</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-10/12 mx-auto md:max-w-md">
+        <form>
+            <div class="mb-8">
+                <label for="your_name" class="text-sm block">お名前</label>
+                <input id="your_name" type="text" class="border-b w-full py-2 focus:outline-none focus:border-2 focus:border-blue-500" placeholder="山田太郎">
+            </div>
+            <div class="mb-8">
+                <label for="email" class="test-sm block" >メールアドレス</label>
+                <input type="email"id="email" class="border-b w-full py-2 focus:outline-none focus:border-2 focus:border-blue-500"placeholder="test@example.com">
+            </div>
+            <button class="focus:outline-none bg-blue-500 text-white font-semibold py-2 px-8 rounded-md">登録する</button>
+        </form>
+    </div>
+</body>
+</html>
