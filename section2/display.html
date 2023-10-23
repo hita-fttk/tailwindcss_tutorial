@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- インライン要素 -->
+    <span class="block py-8 w-80 border border-red-500">インライン要素をブロック要素へ</span>
+    <span class="">ブロックにすると改行される</span>
+    <span class="block text-right font-bold text-blue-300">CCC</span>
+    <!-- メニュー（PC） -->
+    <header class="md:flex justify-between">
+        <h1 class="pl-8">LOGO</h1>
+        <nav>
+            <ul class="flex justify-end space-x-8 pr-8">
+                <li>Home</li>
+                <li>Information</li>
+                <li>Contact</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="mt-16">
+        <h2 class="text-center mb-8">横並びのｻﾝﾌﾟﾙ</h2>
+        <div class="flex justify-center space-x-16">
+            <div class="w-1/4 border text-center">
+                <h3 class="p-2">Title</h3>
+                <p class="p-4">ここに文章が入りますここに文章が入りますここに文章が入ります</p>
+            </div>
+            <div class="w-1/4 border text-center">
+                <h3 class="p-2">Title</h3>
+                <p class="p-4">ここに文章が入りますここに文章が入りますここに文章が入ります</p>
+            </div>
+            <div class="w-1/4 border text-center">
+                <h3 class="p-2">Title</h3>
+                <p class="p-4">ここに文章が入りますここに文章が入りますここに文章が入ります</p>
+            </div>
+            <div class="flex justify-cnter "></div>
+            <div class="flex justify-cnter "></div>
+        </div>
+    </section>
+
+    <!-- 画像と文字を左右入れ替えて表示 -->
+    <section class="mt-16">
+        <h2 class="text-center mb-8">入れ替えテスト</h2>
+        <div class="flex items-center">
+            <div class="p-16 w-1/2 ">個々に文章が入ります。個々に文章が入ります。</div>
+            <img src="../images/image1.jpg" class="w-1/2" alt="">
+        </div>
+        <div class="flex items-center flex-row-reverse">
+            <div class="p-16 w-1/2 ">個々に文章が入ります。個々に文章が入ります。</div>
+            <img src="../images/image1.jpg" class="w-1/2" alt="">
+        </div>
+        <div class="flex items-center">
+            <div class="p-16 w-1/2 ">個々に文章が入ります。個々に文章が入ります。</div>
+            <img src="../images/image1.jpg" class="w-1/2" alt="">
+        </div>
+    </section>
+</body>
+</html>
