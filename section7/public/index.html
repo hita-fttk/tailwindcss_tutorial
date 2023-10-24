@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <header class="print:hidden">
+        <a href="#scroll1">スクロール1</a>
+        <a href="#scroll2">スクロール2</a>
+        <a href="#scroll3">スクロール3</a>
+    </header>
     <div class="flex justify-around mx-auto">中央揃え</div>
     <div class="text-red-300 w-1/2">赤文字</div>
     <div class="text-cyan-300">シアン</div>
@@ -21,5 +26,15 @@
     <div class="mt-8 p-4 max-w-2xl mx-auto">
         <iframe class="w-full aspect-video" src="https://www.youtube.com/embed/9VNmPD4RzNo?si=RdKb2OAKAR4sLcbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
+
+    <section class="my-80" id="scroll1">
+        <h2 class="text-2xl">スクロール1調整位置</h2>
+    </section>
+    <section class="my-80" id="scroll2">
+        <h2 class="text-2xl">スクロール2調整位置</h2>
+    </section>
+    <section class="my-80 scroll-mt-20" id="scroll3" >
+        <h2 class="text-2xl">スクロール3調整位置</h2>
+    </section>
 </body>
 </html>

@@ -437,6 +437,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
+.my-80 {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -473,8 +478,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 42rem;
 }
 
+.scroll-m-4 {
+  scroll-margin: 1rem;
+}
+
+.scroll-mt-4 {
+  scroll-margin-top: 1rem;
+}
+
+.scroll-mt-20 {
+  scroll-margin-top: 5rem;
+}
+
 .justify-around {
   justify-content: space-around;
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
 .border {
@@ -520,6 +541,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-red-300 {
@@ -594,4 +620,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-shadow: 0 0 #0000;
   --tw-shadow-colored: 0 0 #0000;
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+@media print {
+  .print\:hidden {
+    display: none;
+  }
 }
